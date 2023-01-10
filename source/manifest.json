@@ -14,9 +14,7 @@
 	"icons": {
 		"128": "icon.png"
 	},
-	"permissions": [
-		"storage"
-	],
+	"permissions": ["activeTab", "*://*/*"],
 	"options_ui": {
 		"chrome_style": true,
 		"page": "options.html"
@@ -27,5 +25,6 @@
 			"browser-polyfill.min.js",
 			"background.js"
 		]
-	}
+	},
+	"devtools_page": "devtools-page.html"
 }
